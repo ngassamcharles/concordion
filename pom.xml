@@ -40,7 +40,7 @@
 							</sources>
 						</configuration>
 					</execution>
-					<execution>'
+					<execution>
 						<id>add-test-resource</id>
 						<phase>generate-test-sources</phase>
 						<goals>
