@@ -9,7 +9,8 @@ public class Resultat {
 	   }
 		
 	   public void setFirstName(String firstName) {
-	      this.firstName = firstName;
+
+	   	this.firstName = firstName;
 	   }
 		
 	   public String getLastName() {

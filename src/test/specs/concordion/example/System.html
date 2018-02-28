@@ -30,6 +30,13 @@
 			   <p>Le nom <span concordion:execute = "#resultat = split(#TEXT)">Charles Ngassam</span> est composé en premier de 
 			   <span concordion:assertEquals = "#resultat.firstName">Charles</span> et en second de
 			   <span concordion:assertEquals = "#resultat.lastName">Ngassam</span>.</p>
+
+		      <p>Le nom <span concordion:execute = "#resultat = split1(#TEXT)">Charles Ngassam</span> est composé en premier de
+			  <span concordion:assertEquals = "#resultat.firstName">Charles</span> et en second de
+			  <span concordion:assertEquals = "#resultat.lastName">Ngassam</span>.</p>
+
+
+
      </div>
    </body>
 </html>

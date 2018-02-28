@@ -1,5 +1,8 @@
 package concordion.example;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SSystem {
 	public String getGreeting(String userName){
 	      return "Hello " + userName + "!";
@@ -18,5 +21,13 @@ public class SSystem {
 		resultat.setFirstName(noms[0]);
 		resultat.setLastName(noms[1]);
 		return resultat;
+	}
+
+	public Map split1(String UserName){
+	    Map<String, String> resultat = new HashMap<String, String>();
+	    String[] mots = UserName.split(" ");
+	    resultat.put("firstName", mots[0]);
+	    resultat.put("lastName", mots[1]);
+	    return resultat;
 	}
 }
